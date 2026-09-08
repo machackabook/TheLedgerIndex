@@ -5,7 +5,7 @@ No secrets. No keys. Surfaces and bands only.
 
 **Numeral:** `137451921129154222`  
 **Dual Authority:** machackabook + azazeleous  
-**Visualizer stage:** `7`
+**Visualizer stage:** `8`
 
 ## Surfaces
 
@@ -20,7 +20,7 @@ No secrets. No keys. Surfaces and bands only.
 
 ## Geometric states (current weave)
 
-`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius` · `lissajous` · `klein` · `hopf` · `rose` · `seifert` · `blend` · `trefoil` · `stereo` · `clifford` · `enneper` · `gyroid` · `calabi` · `figure8` · `villarceau` · `boy` · `catenoid`
+`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius` · `lissajous` · `klein` · `hopf` · `rose` · `seifert` · `blend` · `trefoil` · `stereo` · `clifford` · `enneper` · `gyroid` · `calabi` · `figure8` · `villarceau` · `boy` · `catenoid` · `dini` · `roman` · `hyperbolic`
 
 Drive path: The-Hive `emitGaiaContract` → `gaia:targetState` / `gaia:pulse` → gaia-visualizer nodes.
 
@@ -30,12 +30,12 @@ Optional pulse gate: `GAIA_PULSE_TOKEN` on Hive; visualizer `?token=`.
 
 See Cryptic-Heartbeat `docs/GEOMETRY_CONTRACT.md` and `docs/NEXT_STAGES.md`.
 
-## Next stages (compiled 2026-09-08T21:10Z)
+## Next stages (compiled 2026-09-08T21:13Z)
 
-8. Authenticated ledger pulse → `gaia:pulse` (token already wired).
 9. Tailscale peer fan-out of `gaia:positions` on band-192.
 10. Hamiltoniansingularity.ai public surface (`blend` default).
 11. GPU / compute path for >8k nodes.
+12. Live `ledger_pulse.py` → authenticated Hive WS.
 
 ## Sparsebundle bands
 
