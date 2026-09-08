@@ -19,7 +19,9 @@ No secrets. No keys. Surfaces and bands only.
 
 ## Geometric states (current weave)
 
-`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular`
+`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius`
+
+Drive path: The-Hive `emitGaiaContract` → `gaia:targetState` / `gaia:pulse` → gaia-visualizer nodes.
 
 See Cryptic-Heartbeat `docs/GEOMETRY_CONTRACT.md` and `docs/NEXT_STAGES.md`.
 
