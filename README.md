@@ -4,7 +4,8 @@ Public table of contents for the Cryptic-Heartbeat nexus.
 No secrets. No keys. Surfaces and bands only.
 
 **Numeral:** `137451921129154222`  
-**Dual Authority:** machackabook + azazeleous
+**Dual Authority:** machackabook + azazeleous  
+**Visualizer stage:** `5`
 
 ## Surfaces
 
@@ -19,7 +20,7 @@ No secrets. No keys. Surfaces and bands only.
 
 ## Geometric states (current weave)
 
-`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius` · `lissajous` · `klein` · `hopf` · `rose` · `seifert` · `blend` · `trefoil` · `stereo`
+`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius` · `lissajous` · `klein` · `hopf` · `rose` · `seifert` · `blend` · `trefoil` · `stereo` · `clifford`
 
 Drive path: The-Hive `emitGaiaContract` → `gaia:targetState` / `gaia:pulse` → gaia-visualizer nodes.
 
@@ -28,6 +29,13 @@ Position path: visualizer `gaia-positions` → Hive `POST /api/gaia/positions` �
 Optional pulse gate: `GAIA_PULSE_TOKEN` on Hive; visualizer `?token=`.
 
 See Cryptic-Heartbeat `docs/GEOMETRY_CONTRACT.md` and `docs/NEXT_STAGES.md`.
+
+## Next stages (compiled 2026-09-08)
+
+6. Authenticated ledger pulse → `gaia:pulse` (token already wired).
+7. Tailscale peer fan-out of `gaia:positions` on band-192.
+8. Hamiltoniansingularity.ai public surface (`blend` default).
+9. GPU / compute path for >8k nodes.
 
 ## Sparsebundle bands
 
