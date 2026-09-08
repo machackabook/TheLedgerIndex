@@ -19,9 +19,13 @@ No secrets. No keys. Surfaces and bands only.
 
 ## Geometric states (current weave)
 
-`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius`
+`torus` · `infinity` (lemniscate) · `hamiltonian` · `triangular` · `helix` · `mobius` · `lissajous` · `klein` · `hopf` · `rose` · `seifert` · `blend` · `trefoil` · `stereo`
 
 Drive path: The-Hive `emitGaiaContract` → `gaia:targetState` / `gaia:pulse` → gaia-visualizer nodes.
+
+Position path: visualizer `gaia-positions` → Hive `POST /api/gaia/positions` → WS fan-out on band-192-network.
+
+Optional pulse gate: `GAIA_PULSE_TOKEN` on Hive; visualizer `?token=`.
 
 See Cryptic-Heartbeat `docs/GEOMETRY_CONTRACT.md` and `docs/NEXT_STAGES.md`.
 
@@ -36,4 +40,4 @@ band-010-local     # local subnet
 band-127-loopback  # ADAM home
 ```
 
-Future expanding band: Hamiltoniansingularity.ai
+Future expanding band: Hamiltoniansingularity.ai (`blend` default).
